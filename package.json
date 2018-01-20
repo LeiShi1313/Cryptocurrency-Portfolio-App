@@ -4,7 +4,15 @@
   "description": "The electron app of Cryptocurrency Portfolio project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "git submodule update --remote --rebase",
+    "install:web": "cd web && npm install",
+    "build:web": "cd web && npm run build",
+    "install:api": "cd api && npm install",
+    "build:api": "cd api && npm run build",
+    "install-dep": "npm run install:web | npm run install:api",
+    "build-dep": "npm run build:web | npm run build:api", 
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
