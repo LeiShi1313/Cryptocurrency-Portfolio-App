@@ -1,0 +1,6 @@
+[submodule "web"]
+	path = web
+	url = git@github.com:LeiShi1313/Cryptocurrency-Portfolio-Web.git
+[submodule "api"]
+	path = api
+	url = git@github.com:LeiShi1313/Cryptocurrency-Portfolio-API.git
