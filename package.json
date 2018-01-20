@@ -1,0 +1,22 @@
+{
+  "name": "cryptocurrency-portfolio-app",
+  "version": "0.0.1",
+  "description": "The electron app of Cryptocurrency Portfolio project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeiShi1313/Cryptocurrency-Portfolio-App.git"
+  },
+  "author": "Lei Shi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeiShi1313/Cryptocurrency-Portfolio-App/issues"
+  },
+  "homepage": "https://github.com/LeiShi1313/Cryptocurrency-Portfolio-App#readme",
+  "devDependencies": {
+    "electron": "^1.7.10"
+  }
+}
